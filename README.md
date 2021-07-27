@@ -30,4 +30,4 @@ Puppet Agents 1-2, all customized to the following two environments:<br>
 
 [Linux Installation](https://github.com/cvquesty/centos7-pe2021.2.0/blob/master/docs/README_Linux.md)
 
-[Windows Installation](https://github.com/cvquesty/centos7-pe2021.2.0/blob/master/docs/README_Winows.md)
+[Windows Installation](https://github.com/cvquesty/centos7-pe2021.2.0/blob/master/docs/README_Windows.md)
