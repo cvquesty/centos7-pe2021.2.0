@@ -3,7 +3,7 @@ Includes a Puppet Master plus a Development and Production Node
 
 NOTES:
 
-This is the current PE 2021.2.0 support archive. Only use this PE for 2019.x.x work unless
+This is the current PE 2021.2.0 support archive. Only use this PE for 2021.x.x work unless
 you have a specific version need.
 
 It should also be noted that I have had intermittent issues with Virtualbox/Vagrant/PE in this
