@@ -5,11 +5,11 @@
 **Download and Install Vagrant**
 
 	# CentOS:
-	https://releases.hashicorp.com/vagrant/2.2.6/vagrant_2.2.6_x86_64.rpm
+	https://releases.hashicorp.com/vagrant/2.2.18/vagrant_2.2.18_x86_64.rpm
 	# Generic:
-	https://releases.hashicorp.com/vagrant/2.2.6/vagrant_2.2.6_linux_amd64.zip
+	https://releases.hashicorp.com/vagrant/2.2.18/vagrant_2.2.18_linux_amd64.zip
 	# Debian
-	https://releases.hashicorp.com/vagrant/2.2.6/vagrant_2.2.6_x86_64.deb
+	https://releases.hashicorp.com/vagrant/2.2.18/vagrant_2.2.18_x86_64.deb
 
 **Download and Install VirtualBox**
 
@@ -37,11 +37,11 @@ Install each product according to its instructions.  When complete, install the 
 
 	mkdir -p ~/Projects/Vagrant
 	cd ~/Projects/Vagrant
-	git clone https://github.com/cvquesty/centos7-pe2019.2.2.git
+	git clone https://github.com/cvquesty/centos7-pe2021.2.0.git
 
 **Change to the Directory and Lauch Vagrant**
 
-	cd ~/Projects/Vagrant/centos7-pe2019.2.2
+	cd ~/Projects/Vagrant/centos7-pe2021.2.0
 	vagrant up
 
 At this point, if everything is in order, your system will begin to orchestrate Virtualbox to create all the needed VMs, download the VM images, Puppet Enterprise, and will configure the client machines, connect them to the master, configure R10k, the console, and prepare your environment for use.

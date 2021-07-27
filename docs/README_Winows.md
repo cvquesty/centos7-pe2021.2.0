@@ -4,11 +4,11 @@
 
 **Download and Install Vagrant**
 
-https://releases.hashicorp.com/vagrant/2.2.6/vagrant_2.2.6_x86_64.msi	
+https://releases.hashicorp.com/vagrant/2.2.18/vagrant_2.2.18_x86_64.msi
 
 **Download and Install Virtualbox**
 
-	https://download.virtualbox.org/virtualbox/6.0.4/VirtualBox-6.0.4-128413-Win.exe
+	https://download.virtualbox.org/virtualbox/6.1.24/VirtualBox-6.1.24-145767-Win.exe
 
 **Download and Install Git for Windows**
 
@@ -32,11 +32,11 @@ In previous releases, vagrant-pe_build had issues with downloading Puppet Enterp
 
 In the past, you would need to download the PE Package manually here:
 
-	https://pm.puppetlabs.com/puppet-enterprise/2019.2.2/puppet-enterprise-2019.2.2-el-7-x86_64.tar.gz
+	https://pm.puppetlabs.com/puppet-enterprise/2021.2.0/puppet-enterprise-2021.2.0-el-7-x86_64.tar.gz
 
 - or -
 
-	https://pm.puppetlabs.com/puppet-enterprise/2019.2.2/puppet-enterprise-2019.2.2-el-6-x86_64.tar.gz
+	https://pm.puppetlabs.com/puppet-enterprise/2021.2.0/puppet-enterprise-2021.2.0-el-6-x86_64.tar.gz
 
 Move it to the C:\Users\username\\.vagrant.d\\.pe_build directory.
 
@@ -44,11 +44,11 @@ Move it to the C:\Users\username\\.vagrant.d\\.pe_build directory.
 
 In Windows Explorer, navigate to a location within which to create your project.  From there, clone the git repository.
 
-	git clone https://github.com/cvquesty/centos7-pe2019.2.2.git
+	git clone https://github.com/cvquesty/centos7-pe2021.2.0.git
 
 **Change to the Directory and Launch Vagrant**
 
-	cd centos7-pe2019.2.2
+	cd centos7-pe2021.2.0
 	vagrant up
 
 **Notes:**

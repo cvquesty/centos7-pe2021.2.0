@@ -4,11 +4,11 @@
 
 **Download and Install Vagrant**
 
-	https://www.vagrantup.com/downloads.html
+	https://releases.hashicorp.com/vagrant/2.2.18/vagrant_2.2.18_x86_64.dmg
 
 **Download and Install VirtualBox**
 
-	https://virtualbox.org
+	https://download.virtualbox.org/virtualbox/6.1.24/VirtualBox-6.1.24-145767-OSX.dmg
 
 **Install Git**
 
@@ -32,11 +32,11 @@ Install each product according to its instructions.  When complete, install the 
 
 	mkdir -p ~/Projects/Vagrant
 	cd ~/Projects/Vagrant
-	git clone https://github.com/cvquesty/centos7-pe2019.2.2.git
+	git clone https://github.com/cvquesty/centos7-pe2021.2.0.git
 
 **Change to the Directory and Lauch Vagrant**
 
-	cd ~/Projects/Vagrant/centos7-pe2019.2.2
+	cd ~/Projects/Vagrant/centos7-pe2021.2.0
 	vagrant up
 
 At this point, if everything is in order, your system will begin to orchestrate Virtualbox to create all the needed VMs, download the VM images, Puppet Enterprise, and will configure the client machines, connect them to the master, configure R10k, the console, and prepare your environment for use.
