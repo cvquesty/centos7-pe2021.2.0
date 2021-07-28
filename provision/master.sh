@@ -3,6 +3,9 @@
 # Setup path to Puppet binaries before environment gets sourced
 export PATH=$PATH:/opt/puppetlabs/puppet/bin/
 
+# Kill the  brain dead Vagrant "feature" of pointing FQDN at Localhost
+  /bin/sed -i '/127.0.1.1 master.puppetlabs.vm master/d' /etc/hosts
+
 # Stop and disable FirewallD
 /bin/systemctl stop firewalld.service
 /bin/systemctl disable firewalld.service

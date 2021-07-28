@@ -24,6 +24,15 @@ Puppet Agents 1-2, all customized to the following two environments:<br>
 - development<br>
 - production<br>
 
+I have sample roles and profiles modules alongside the control repo. These repos are in my personal GitHub and are as follows:
+
+[Control Repo](https://github.com/cvquesty/vagrant_control.git)
+[Roles](https://github.com/cvquesty/vagrant_roles.git)
+[Profiles](https://github.com/cvquesty/vagrant_profiles.git)
+
+It would be best to fork these repos and then modify the references to them in your forks to point to your own repo.
+This operation is beyond the scope of this document, but is in my list of things to do.
+
 **Instructional Documentation:**
 
 [OSX Installation](https://github.com/cvquesty/centos7-pe2021.2.0/blob/master/docs/README_OSX.md)
