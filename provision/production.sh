@@ -6,3 +6,7 @@
 # Stop and disable firewalld
 /bin/systemctl stop  firewalld.service
 /bin/systemctl disable firewalld.service
+
+# Run the Puppet Agent twice to get Set up with the Server
+/opt/puppetlabs/puppet/bin/puppet agent -t || true
+/opt/puppetlabs/puppet/bin/puppet agent -t || true
